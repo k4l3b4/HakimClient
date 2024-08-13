@@ -1,5 +1,7 @@
 import { axiosInstance } from './axiosInstance';
 
+const BASE_URL = ""
+
 // Export endpoints and base URL
 export const API_URLS = {
   BLOGS: `${BASE_URL}/blogs`,
